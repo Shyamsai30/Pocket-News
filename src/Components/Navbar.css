@@ -1,0 +1,7 @@
+.text-hover {
+    transition: transform 0.3s ease-out;
+    display: inline-block;
+  }
+  .text-hover:hover {
+    transform: translate(0, -3px);
+  }
