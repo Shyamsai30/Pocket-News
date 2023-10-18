@@ -9,7 +9,7 @@ import {
 import LoadingBar from 'react-top-loading-bar';
 
 const App = () => {
-  const apiKey = process.env.REACT_APP_NEWS_API_KEY
+ const apiKey = "5c78c902339e423291e37b302903b464"
   const [progress, setProgress] = useState(0)
   const [mode, setMode] = useState('Light')
 
